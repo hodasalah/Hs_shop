@@ -1,0 +1,45 @@
+.area-actions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.area-actions button{
+    max-width: 380px;
+    height:50px;
+    width: 100%;
+    margin:10px auto;
+}
+.area-actions button:first-of-type {
+    background-color:  #1877f2  ;
+
+}
+.area-actions button:first-child:hover {
+    background-color:  #166fe5;
+}
+
+.area-actions button:last-child  {
+    
+    background-color: #42b72a;       
+}
+.area-actions button a,
+.area-actions button span {
+    color: #f9f9f9 ;
+}
+.area-actions button:last-child:hover {
+    color: #f9f9f9;
+    background-color: #36a420;        
+}
+.form-control {
+    width: 100%;
+}
+@media only screen and (max-width: 440px) {
+    .area-actions button {
+        width:100%
+    }
+    .area-actions > * {
+        
+        margin-bottom: 20px !important;
+    }
+}

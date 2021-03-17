@@ -1,0 +1,78 @@
+.MuiCard-root.custom-card {
+    background-color: #e7e7e7;
+    transition: all 0.5s ease-in-out;
+}
+
+.MuiCard-root.custom-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px #1d1d1d;
+}
+
+.custom-card .content {
+    padding-bottom: 0;
+}
+
+.custom-card .title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #212121;
+}
+
+.custom-card .card-image {
+    padding: 10px 30px 0 30px;
+    background-color: #f6f6f6;
+    object-fit: contain;
+}
+
+.custom-card p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.custom-card .price {
+    color: #fa1332;
+}
+
+.custom-card .basket-item-price {
+    color: #fa1332;
+    margin-bottom: 0;
+    margin-top: 0 !important;
+}
+
+.actions-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.custom-card .custom-button {
+    color: #fa1332;
+    padding: 8px;
+}
+.custom-card .product-quantity {
+    color: #f7f7f7;
+    background-color: #fa1332;
+}
+.custom-card .custom-button:hover,
+.custom-card .product-quantity:hover {
+    background-color: #ad0e23;
+    color: #c9d1d9;
+}
+
+@media only screen and (max-width: 540px) {
+    .MuiCard-root.custom-card:hover {
+        transform: scale(1);
+        box-shadow: none;
+    }
+}
+
+
+
+@media only screen and (max-width: 400px){
+    .text-btn{
+        display:none;
+    }
+
+}

@@ -1,0 +1,62 @@
+.MuiCard-root.product-card {
+    transition: all 0.5s ease-in-out;
+}
+
+.MuiCard-root.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card .content {
+    padding-bottom: 0;
+}
+
+.product-card .title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product-card p {
+    color: #c9d1d9;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product-card .price {
+    margin-top: 10px;
+    color: #e12128;
+}
+
+.product-card .custom-button {
+    width: 100%;
+    color: #e12128;
+}
+
+.product-card .custom-button:hover {
+    background-color: #e12128;
+    color: #f7f7f7;
+}
+
+.product-card .custom-button svg {
+    margin-right: 10px;
+}
+.img-wrap {
+    width: 100%;
+    height: 150px;
+    padding: 10px 0;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.img-wrap a {
+    width: 100%;
+    display: block;
+    height: 100%;
+}
+.img-wrap a img {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+}

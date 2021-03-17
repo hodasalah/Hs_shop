@@ -1,0 +1,75 @@
+html {
+    scroll-behavior: smooth;
+}
+*,
+*::after,
+*::before {
+    font-family: "Poppins", sans-serif !important;
+    box-sizing: border-box;
+}
+
+body {
+    color: #e7e7e7 !important;
+    position: relative;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: normal;
+  
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h1,
+h3,
+h4,
+h5,
+h2,
+h6 {
+    font-family: "Playfair Display", serif !important;
+    line-height: 1.4 !important;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+h1 {
+    font-size: 60;
+}
+h2 {
+    font-size: 45px;
+}
+h3 {
+    font-size: 30px;
+}
+h4 {
+    font-size: 25px;
+}
+h5 {
+    font-size: 20px;
+}
+h6 {
+    font-size: 17px;
+}
+@media only screen and (max-width: 540px) {
+    h1 {
+        font-size: 45px !important;
+    }
+    h2 {
+        font-size: 35px !important;
+    }
+    h3 {
+        font-size: 25px !important;
+    }
+    h4 {
+        font-size: 20px !important;
+    }
+    h5 {
+        font-size: 18px !important;
+    }
+    h6 {
+        font-size: 16px !important;
+    }
+}

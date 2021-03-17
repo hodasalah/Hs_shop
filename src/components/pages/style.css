@@ -1,0 +1,42 @@
+.Banner-pages {
+    background-image: linear-gradient(
+            to bottom right,
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+        ),
+        url("./Banner.jpg");
+    background-size: cover;
+    background-position: top 80% center;
+
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Banner-pages__title {
+    font-size: 90px;
+    font-family: "Playfair Display", serif !important;
+}
+.about-page{
+    background-color: #f9f9f9;
+}
+/*
+
+contact
+*/
+textarea{
+    width: 100%;
+    border-color:rgba(0, 0, 0, 0.42) !important ;
+}
+textarea:focus{
+
+    outline-color:#f50057 !important ;
+}
+.btn-message{
+    background-color: #e12128 !important;
+    padding:8px 60px !important;
+}
+.btn-message span{
+    color:#f9f9f9 !important;
+}

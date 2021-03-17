@@ -1,0 +1,113 @@
+.footer {
+    width: 100%;
+    padding: 0 20px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #232323;
+
+    font-weight: 400;
+
+    margin-top: 80px;
+    color: #d4d4d4;
+}
+.footer p {
+    font-size: 16px;
+    margin-bottom: 50px;
+    line-height: 2;
+    font-weight: lighter;
+    font-family: "Poppins", serif;
+    letter-spacing: 1px;
+}
+.footer h4 {
+    font-size: 20px;
+    margin-top: 0 !important;
+    margin-bottom: 29px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+footer li svg {
+    font-size: 0.8rem !important;
+    margin-right: 0.5rem;
+}
+footer li {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.footer-logo {
+    margin-bottom: 40px !important;
+    margin-top: 0;
+    font-family: "Playfair Display", serif !important;
+    font-size: 25px;
+    display: block;
+    line-height: 1;
+    color: #e12128;
+}
+.footer-logo__span {
+    font-style: italic;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #d4d4d4 !important;
+    font-weight: lighter !important;
+    letter-spacing: 1px !important;
+    font-family: "Poppins", serif !important;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #e12128 !important;
+    padding-left: 7px;
+}
+footer ul li a:hover > svg {
+    fill: #e12128;
+}
+.copyRight {
+    padding: 25px 0;
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: lighter;
+    font-family: "Poppins", serif;
+    letter-spacing: 1px;
+    text-align: center;
+    align-items: center;
+}
+.copyRight > * {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.copyRight p {
+    margin-bottom: 0;
+}
+.copyRight a {
+    color: #e12128;
+    font-family: "Playfair Display", serif;
+    text-decoration: none !important;
+    transition: all 0.5s ease;
+    display: inline-block;
+}
+.copyRight svg {
+    font-size: 1rem;
+    fill: #e12128;
+}
+.footer-social {
+    justify-self: flex-end;
+}
+.footer-social svg {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    fill: #d4d4d4;
+    transition: all 0.5s ease;
+}
+.copyRight p a:hover {
+    transform: rotate(4deg) scaleY(1.1);
+
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.8);
+}
+.footer-social a:hover svg {
+    fill: #e12128;
+    transform: rotate(10deg) scaleY(1.2);
+}

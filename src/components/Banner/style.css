@@ -1,0 +1,45 @@
+.banner {
+    padding: 100px 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #21262d;
+    background-image: linear-gradient(
+            to bottom right,
+            rgba(18, 18, 18, 0.824),
+            rgba(1, 2, 3, 0.749)
+        ),
+        url("./Canon-Kit.png");
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+.ban-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.banner .title {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.banner a.shopping-button {
+    color: #f7f7f7;
+    background-color: #ad0e23;
+    padding: 12px 60px;
+    border-radius: 100px;
+    margin-top: 40px;
+}
+.banner .shopping-button span {
+    letter-spacing: 4px;
+}
+@media (min-width: 800px) {
+    .banner .title {
+        font-size: 65px;
+    }
+}
